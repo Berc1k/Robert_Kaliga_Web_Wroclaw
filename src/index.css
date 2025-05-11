@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Josefin Sans", sans-serif;
+    color: #101750;
+    box-sizing: border-box;
+  }
+}
