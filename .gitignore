@@ -1,0 +1,57 @@
+# Node.js dependencies
+/node_modules/
+
+# Build files
+/dist/
+/build/
+
+# Cache and temporary files
+.cache/
+.tmp/
+.vite/
+*.cache
+
+
+
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Testing
+coverage/
+*.lcov
+jest-report.xml
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# React and TypeScript artifacts
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Redux persist and localStorage files
+reduxPersist/
+
+# Images and assets cache
+*.png
+*.jpg
+*.jpeg
+
+# Miscellaneous
+*.bak
+*.tmp
+
