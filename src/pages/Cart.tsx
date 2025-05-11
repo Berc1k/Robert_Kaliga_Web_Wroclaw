@@ -9,6 +9,7 @@ import {
 import { CartCard } from "../components/CartCard";
 import { NavButton } from "../components/NavButton";
 import { ActionButton } from "../components/ActionButton";
+import type { CartProduct } from "../types/interfaces";
 
 export function Cart() {
   const cartItems = useSelector((state: RootState) => state.cart.cartItems);
@@ -34,7 +35,7 @@ export function Cart() {
       ) : (
         <div className="flex flex-col gap-8 max-w-3xl mx-auto mt-10">
           <div>
-            {cartItems.map((item: { id: number }) => (
+            {cartItems.map((item: CartProduct) => (
               <CartCard
                 key={item.id}
                 product={item}

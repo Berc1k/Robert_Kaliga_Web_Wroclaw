@@ -1,10 +1,13 @@
 {
+  "homepage": "https://berc1k.github.io/Robert_Kaliga_Web_Wroclaw/",
   "name": "shop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
